@@ -14,7 +14,7 @@ from Login import login_page, logout, exit_app
 
 window = Tk()
 
-# login_page(window)
+login_page(window)
 
 window.title('Dashboard')
 window.geometry('1270x668+0+0')
@@ -461,4 +461,5 @@ total_saleno_lable = Label(sale_frame,
                              )
 total_saleno_lable.pack()
 update_time()
+
 window.mainloop()
